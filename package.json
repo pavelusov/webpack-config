@@ -4,7 +4,8 @@
   "description": "Webpack start settings",
   "main": "app.js",
   "scripts": {
-    "dev": "webpack -d --watch"
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
